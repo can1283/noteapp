@@ -1,0 +1,46 @@
+*{
+  margin: 20px;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+button{
+  border: 2px solid rgb(212, 212, 212);
+  background-color: white;
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 10px;
+  font-size: 18px;
+  cursor: pointer;
+}
+
+input, select{
+  border: 2px solid rgb(212, 212, 212);
+  background-color: white;
+  padding: 5px 10px;
+  outline: none;
+  border-radius: 10px;
+  font-size: 18px;
+}
+
+ul{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 500px;
+}
+
+ul li{
+  padding: 10px;
+  border-radius: 5px;
+  list-style: none;
+  border: 2px solid;
+  width:fit-content;
+}
